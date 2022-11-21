@@ -1,0 +1,26 @@
+.project {
+    width: 250px;
+    background-color: white;
+    min-height: max-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.img {
+    height: 200px;
+    width: 100%;
+    background-color: #b3caf7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link {
+    background-color: #ecf2ff;
+    padding: 7px;
+    text-decoration: none;
+}
+
+.description, .title {
+    background-color:  #ecf2ff;
+}
