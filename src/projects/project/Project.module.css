@@ -27,6 +27,20 @@
     bottom: 0;
     left: 0;
     right: 0;
+    width: 250px;
+    background-color: white;
+    min-height: max-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.img {
+    height: 200px;
+    width: 100%;
+    background-color: #b3caf7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .link {
@@ -53,4 +67,5 @@
     font-weight: 400;
     font-size: 14px;
 }
+
 

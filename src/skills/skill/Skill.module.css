@@ -1,0 +1,19 @@
+.icon {
+    height: 60px;
+    width: 60px;
+    background-color: gainsboro;
+}
+
+.skill {
+    width: 250px;
+    background-color: white;
+    min-height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.description {
+    border: 1px solid;
+}

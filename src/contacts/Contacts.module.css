@@ -9,6 +9,12 @@
     justify-content: flex-start;
 }
 
+
+.title {
+    background-color: white;
+    margin: 15px;
+}
+
 .form {
     display: flex;
     flex-direction: column;
