@@ -1,0 +1,22 @@
+.title {
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.title h2 {
+    font-size: 36px;
+    /*color: #454360;*/
+    /*color: #e8e8f2;*/
+    font-weight: 700;
+}
+
+.title::before {
+    content: '';
+    background-image: url('../../../assets/imgs/dots-bg.svg');
+    display: block;
+    height: 37px;
+    left: -14px;
+    top: -14px;
+    position: absolute;
+    width: 37px;
+}
