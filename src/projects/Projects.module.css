@@ -1,6 +1,7 @@
 .projectsBlock {
     min-height: 100vh;
-    background-color: #efe0fe;
+    background-color: #1b1b1c;
+    padding: 100px 0;
 }
 
 .projectsContainer {
@@ -14,9 +15,15 @@
 }
 
 .projects {
-    border: 1px solid;
     width: 100%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+@media screen and (max-width: 1140px) {
+    .projects {
+        justify-content: center;
+    }
 }

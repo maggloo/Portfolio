@@ -1,19 +1,21 @@
 import React from 'react';
 import styles from './Contacts.module.css';
 import styleContainer from '../common/styles/Container.module.css'
+import Title from "../common/components/title/Title";
+
 
 const Contacts = () => {
     return (
         <div className={styles.contactsBlock}>
-           <div className={`${styleContainer.container} ${styles.contactsContainer}`}>
-               <h2 className={styles.title}>Contact Me</h2>
+            <div className={`${styleContainer.container} ${styles.contactsContainer}`}>
+                <Title title={'Contact Me'} style={{color: '#454360'}}/>
                 <form className={styles.form}>
-                    <input></input>
-                    <input></input>
-                    <textarea></textarea>
+                    <input type='text'></input>
+                    <input type='text'></input>
+                    <textarea/>
+                    <button className={styles.sendForm} type='submit'>Send</button>
                 </form>
-               <button className={styles.sendForm}>Send</button>
-           </div>
+            </div>
         </div>
     );
 };
